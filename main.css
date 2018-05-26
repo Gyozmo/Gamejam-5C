@@ -9,6 +9,7 @@ font-family: 'Kavivanar', cursive;
 #FDE727 jaune
 #FB9300 orange
 #43A6E7 bleu claire
+rgb(64, 188, 234) bleu claire +
 */
 
 /* global */
@@ -18,9 +19,11 @@ font-family: 'Kavivanar', cursive;
 
 html, body {
     width: 100%;
+    height: 100%;
     overflow-x: hidden;
     margin: 0;
     font-family: 'Indie Flower', cursive;
+    background-color: rgb(64, 188, 234);
 
 }
 
@@ -30,18 +33,24 @@ width: 100%;
 height: 100px;
 font-family: 'Kavivanar', cursive;
 background-color: #9FDF58;
+box-shadow: 3px,3px, black;
 }
 
 nav img{
 width: auto;
-height: 100px;
+height: 85px;
 position: absolute;
+top: 8px;
+left: 40px;
 }
 
 nav h2 {
+    font-size: 37px;
 position: relative;
-top: 25%;
+top: 32%;
 left: 10%;
+color: #FFF;
+/* text-transform: uppercase */
 }
 /* sections */
 
