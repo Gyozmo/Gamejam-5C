@@ -42,7 +42,7 @@ var data = [
     //Objet 5
     {
         title : "Route" ,
-        image : "url(images/logo.png)",
+        image : "url(images/fleur.png)",
         index : 5
     },
 
@@ -50,10 +50,16 @@ var data = [
     //Objet 6
     {
         title : "Route" ,
-        image : "url(images/logo.png)",
+        image : "url(images/small-logo.png)",
         index : 6
     },
 
+     //Objet 7
+     {
+        title : "Route" ,
+        image : "url(images/small-logo.png)",
+        index : 7
+    },
     ]
     
     var i=0;
@@ -66,25 +72,30 @@ var data = [
     
     
     $("#top").click(function(){
-        i = i + 4
-        
-        if (i%2 == 0) {
+        i = i + 4;
+
+        console.log($(this).data());
+        var topindex = $(this).data();
+
+        if (topindex%2 == 0) {
             $("#centre").css("background-image",data[i].image).attr("data-index",data[i].index);
             $("#top").css("background-image",data[i+1].image).attr("data-index",data[i+1].index);
             $("#bottom").css("background-image",data[i+2].image).attr("data-index",data[i+2].index);
         }else{
             $("#centre").css("background-image",data[i+3].image).attr("data-index",data[i+3].index);
-            $("#top").css("background-image","none");
-            $("#bottom").css("background-image","none");
+            $("#top").css("background-image","");
+            $("#bottom").css("background-image","");
         }
     
     
     });
     
     $("#bottom").click(function(){
-        i = i + 4
-        
-        if (i%2 == 0) {
+        i = i + 4;
+        console.log($(this).data());
+        var bottomindex = $(this).data();
+
+        if (bottomindex%2 == 0) {
             $("#centre").css("background-image",data[i].image).attr("data-index",data[i].index);
             $("#top").css("background-image",data[i+1].image).attr("data-index",data[i+1].index);
             $("#bottom").css("background-image",data[i+2].image).attr("data-index",data[i+2].index);
