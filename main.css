@@ -24,6 +24,47 @@ nav h1 {
 
 /* modules1 */
 
+.image {
+	display: flex;
+	justify-content: space-around;
+
+	
+
+}
+	.left {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		
+
+	}
+
+		 .centre {
+			background-image: url("images/bleu.png");
+			width: 200px;
+			height: 200px;
+		}
+
+	.right {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		
+	}
+
+		.top {
+			background-image: url("images/bleu.png");
+			width: 200px;
+			height: 200px;
+		}
+
+		.bottom {
+			background-image: url("images/vert.gif")
+			width: 200px;
+			height: 200px;
+		}
+
 
 /* modules2 */
 
