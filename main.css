@@ -97,10 +97,10 @@ align-items: center;
 
 	}
 
-		 .centre {
-			background-image: url("images/bleu.png");
+		.centre {
 			width: 200px;
 			height: 200px;
+			background-color: red;
 		}
 
 	.right {
@@ -111,13 +111,13 @@ align-items: center;
 	}
 
 		.top {
-			background-image: url("images/bleu.png");
+			background-color: blue;
 			width: 200px;
 			height: 200px;
 		}
 
 		.bottom {
-			background-image: url("images/vert.gif")
+			background-color : green;
 			width: 200px;
 			height: 200px;
 		}
