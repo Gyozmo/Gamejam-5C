@@ -5,7 +5,7 @@ var data = [
     // Objet 0
     {
         title : "Germe",
-        image : "url(images/ballon.png)",
+        image : "url(images/foot.png)",
         index : 0
         /*options : [
         {

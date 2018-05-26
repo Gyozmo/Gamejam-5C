@@ -115,7 +115,8 @@ nav h2 {
 		#centre {
 			width: 200px;
 			height: 200px;
-			background-size: cover;
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
 
 	#right {
@@ -127,7 +128,8 @@ nav h2 {
 
 		#top {
 			background-image: url(data[1].image);
-			background-size: cover;
+			background-size: contain;
+			background-repeat: no-repeat;
 			width: 200px;
 			height: 200px;
 		}
@@ -136,7 +138,8 @@ nav h2 {
 			background-image: url(data[2].image);
 			width: 200px;
 			height: 200px;
-			background-size: cover;
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
 
 
