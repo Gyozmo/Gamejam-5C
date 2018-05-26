@@ -7,13 +7,6 @@ var data = [
         title : "Germe",
         image : "url(images/germe.jpg)",
         index : 0
-        /*options : [
-        {
-            title : "Planter" ,
-            target : 1
-            
-        } ,
-*/
     },
     
     //Objet 1
@@ -65,20 +58,12 @@ var data = [
     
     var i=0;
     
-    $("#centre").css("background-image",data[i].image);
-    $("#top").css("background-image",data[i+1].image);
-    $("#bottom").css("background-image",data[i+2].image);
+    $("#centre").css("background-image",data[i].image).attr("data-index",data[i].index);
+    $("#top").css("background-image",data[i+1].image).attr("data-index",data[i+1].index);
+    $("#bottom").css("background-image",data[i+2].image).attr("data-index",data[i+2].index);
     
     
     
-    
-    
-    /*
-    $("#centre").css("background-image",data[i].image);
-    $("#top").css("background-image",data[i+1].image);
-    $("#bottom").css("background-image",data[i+2].image); */
-    
-    console.log();
     
     $("#top").click(function(){
         i = i + 4
@@ -97,7 +82,17 @@ var data = [
     });
     
     $("#bottom").click(function(){
-    
+        i = i + 4
+        
+        if (i%2 == 0) {
+            $("#centre").css("background-image",data[i].image).attr("data-index",data[i].index);
+            $("#top").css("background-image",data[i+1].image).attr("data-index",data[i+1].index);
+            $("#bottom").css("background-image",data[i+2].image).attr("data-index",data[i+2].index);
+        }else{
+            $("#centre").css("background-image",data[i+3].image).attr("data-index",data[i+3].index);
+            $("#top").css("background-image","none");
+            $("#bottom").css("background-image","none");
+        }
     
     
     });
