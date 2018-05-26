@@ -81,14 +81,16 @@ align-items: center;
 
 /* modules1 */
 
-.image {
+#image {
 	display: flex;
 	justify-content: space-around;
+	height : 500px;
+	width : 500px;
 
 	
 
 }
-	.left {
+	#left {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -97,29 +99,31 @@ align-items: center;
 
 	}
 
-		.centre {
+		#centre {
 			width: 200px;
 			height: 200px;
-			background-color: red;
+			background-size: cover;
 		}
 
-	.right {
+	#right {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		
 	}
 
-		.top {
-			background-color: blue;
+		#top {
+			background-image: url(data[1].image);
+			background-size: cover;
 			width: 200px;
 			height: 200px;
 		}
 
-		.bottom {
-			background-color : green;
+		#bottom {
+			background-image: url(data[2].image);
 			width: 200px;
 			height: 200px;
+			background-size: cover;
 		}
 
 
