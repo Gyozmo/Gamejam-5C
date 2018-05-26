@@ -94,6 +94,47 @@ nav h2 {
 
 /* modules1 */
 
+.image {
+	display: flex;
+	justify-content: space-around;
+
+	
+
+}
+	.left {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		
+
+	}
+
+		.centre {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+
+	.right {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		
+	}
+
+		.top {
+			background-color: blue;
+			width: 200px;
+			height: 200px;
+		}
+
+		.bottom {
+			background-color : green;
+			width: 200px;
+			height: 200px;
+		}
+
 
 /* modules2 */
 
