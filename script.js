@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
 
 
 var planter = document.querySelector(".planter");
@@ -46,6 +46,9 @@ manger.addEventListener("mouseout", function() {
 	burger.style.transition = "ease-out 2s"
 })
 
+/*
+$(document).ready(function(){
+
 var data = [
 
 // Objet 0
@@ -64,7 +67,7 @@ var data = [
 		title : "Route" ,
 		target : 2
 		
-	}] */
+	}] 
 },
 
 //Objet 1
@@ -97,15 +100,24 @@ $("#centre").css("background-image",data[i].image);
 /*
 $("#centre").css("background-image",data[i].image);
 $("#top").css("background-image",data[i+1].image);
-$("#bottom").css("background-image",data[i+2].image); */
+$("#bottom").css("background-image",data[i+2].image); 
+
 
 
 $("#top").click(function(){
-	if (i%2 ==0) {
+
+	
+	console.log($(data[this].index));
+	
+	/*if (i%2 == 0) {
 		$("#centre").css("background-image",data[i].image);
 		$("#top").css("background-image",data[i].image);
 		$("#bottom").css("background-image",data[i].image);
-}
+	}else{
+		$("#centre").css("background-image",data[i+3].image);
+		$("#top").css("background-image","none");
+		$("#bottom").css("background-image","none");
+	}
 
 
 });
@@ -120,3 +132,4 @@ $("#bottom").click(function(){
 
 
 });
+*/
