@@ -76,8 +76,8 @@ var end = [
             $("#centre").css("background-image",end[i].image[0]);
             $("#top").css("background-image",end[i].image[1]);
             $("#bottom").css("background-image",end[i].image[2]);
-            var btn = "<button onclick='goBack()'>Clique ici pour réessayer</button>"
-            $("#module").append(btn)
+            //var btn = "<button onclick='goBack()'>Clique ici pour réessayer</button>"
+            //$("#module").append(btn)
             
     }
 
