@@ -1,4 +1,3 @@
-
 /* Fonts
 font-family: 'Indie Flower', cursive;
 font-family: 'Kavivanar', cursive;
@@ -11,6 +10,7 @@ font-family: 'Kavivanar', cursive;
 #43A6E7 bleu claire
 rgb(64, 188, 234) bleu claire +
 */
+
 
 /* global */
 * { 
@@ -25,8 +25,9 @@ html, body {
     overflow-x: hidden;
     overflow-y: hidden; 
     font-family: 'Indie Flower', cursive;
-    background-image: url('images/skybg.jpg') 
+    background-image: url('images/skybg.jpg');
 }
+
 
 /* header */
 nav {
@@ -35,37 +36,32 @@ nav {
     font-family: 'Kavivanar', cursive;
     background-color: #9FDF58;
     box-shadow: 3px 3px black;
-    line-height: 100px; 
-}
+    line-height: 100px;}
 
-nav img{ 
-    width: auto;
-    height: 85px;
-    float: left;
-    margin: 8px 30px; 
-}
+    nav img { 
+        width: auto;
+        height: 85px;
+        float: left;
+        margin: 8px 30px;}
 
-nav h2 {
-    font-size: 37px;
-    color: #FFF;
-    margin-left: 150px;
-/* text-transform: uppercase */
-}
+    nav h2 {
+        font-size: 37px;
+        color: #FFF;
+        margin-left: 150px;}
 
-.croix {
-    float: right;
-    width: 5%;
-    height: 100%;
-    background: red;
-    display: none;
-    z-index: 5;
-    position: relative;
-    font-size: 40px;
-}
+    .croix {
+        float: right;
+        width: 5%;
+        height: 100%;
+        background: red;
+        display: none;
+        z-index: 5;
+        position: relative;
+        font-size: 40px;}
 
-.croix:hover {
-    color: #FFF;
-}
+        .croix:hover {
+            color: #FFF;}
+
 
 /* sections */
 .container {
@@ -75,38 +71,48 @@ nav h2 {
     align-items: center;
     width: 100%;
     height: 35%;
-    margin-top: 20px;
-}
+    margin-top: 20px;}
 
-.box {
-    background-color: rgb(251, 192, 0);
-    width: 28%;
-    height: 100%;
-    font-size: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-}
+    .box {
+        background-color: rgb(251, 192, 0);
+        width: 28%;
+        height: 100%;
+        font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;}
 
-.fleur, .foot {
-    background: none;
-    visibility: hidden;
-    margin-top: 30%;
-}
+    .fleur, .foot {
+        background: none;
+        visibility: hidden;
+        margin-top: 30%;}
 
-.burger {
-    background: none;
-    visibility: hidden;
-    margin-bottom: 35%;
-}
+    .burger {
+        background: none;
+        visibility: hidden;
+        margin-bottom: 35%;}
 
-.manger {
-    z-index: 3;
-}
+    .manger {
+        z-index: 3;}
 
+
+        /* module planter */
+        .ModulesPlanter, .ModulesPlanter2, .ModulesPlanter3 {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            display: none;}
+
+            .module {
+                width: 30%;
+                height: 40%;
+                background-color: orangered;}
 
 /* modules1 */
 
