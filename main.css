@@ -52,6 +52,16 @@ nav h2 {
 /* text-transform: uppercase */
 }
 
+.croix {
+    float: right;
+    width: 5%;
+    height: 100%;
+    background: red;
+    display: none;
+    z-index: 5;
+    position: relative;
+}
+
 /* sections */
 .container {
     display: flex;
@@ -72,6 +82,8 @@ nav h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .fleur, .foot {
@@ -87,9 +99,8 @@ nav h2 {
 }
 
 .manger {
-    z-index: 1;
+    z-index: 3;
 }
-
 
 
 /* modules1 */
