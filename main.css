@@ -113,7 +113,24 @@ nav {
             .module {
                 width: 30%;
                 height: 40%;
-                background-color: orangered;}
+                background-color: orangered;
+                font-size: 16px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+
+            }
+
+            .module a {
+                text-decoration: none;
+                color:black;
+            }
+
+            .module a:hover {
+                color:white;
+            }
+
 
 
 /* modules1 */
