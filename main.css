@@ -109,6 +109,7 @@ nav h2 {
     display:flex;
     justify-content: center;
     height: 100%;
+    clear : both;
 }
 
 #image {
