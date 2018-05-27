@@ -1,3 +1,6 @@
+
+
+
 var planter = document.querySelector(".planter");
 var bouger = document.querySelector(".bouger");
 var manger = document.querySelector(".manger");
@@ -49,7 +52,7 @@ manger.addEventListener("mouseout", function() {
 	burger.style.visibility = "hidden";
 	burger.style.marginBottom = "35%";
 	burger.style.transition = "ease-out 2s"
-})
+
 
 /******** Aggrandir la div au click *********/
 
@@ -108,4 +111,3 @@ croix.addEventListener("click", function() {
     manger.style.transition = "all 2s";
     this.style.display = "none";
 })
-
