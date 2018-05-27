@@ -3,13 +3,13 @@ $(document).ready(function(){
 var data = [
 
     {
-        image : ["url(images/patate-germe.png)","url(images/route.jpg)","url(images/ground.png)"]
+        image : ["url(images/patate-germe.png)","url(images/chat.jpeg)","url(images/ground.png)"]
     },
     {
-        image : ["url(images/burger.png)","url(images/foot.png)","url(images/ground.png)"]
+        image : ["url(images/plantpotato.jpg)","url(images/plantadult.jpg)","url(images/faucille.jpg)"]
     },
     {
-        image : ["url(images/germe.jpg)","url(images/route.jpg)","url(images/ground.png)"]
+        image : ["url(images/potatoes.gif)","url(images/epic-win.gif)","url(images/animepotato.gif)"]
     },
     {
         image : ["url(images/germe.jpg)","url(images/route.jpg)","url(images/ground.png)"]
@@ -31,7 +31,7 @@ var data = [
 
 var end = [
     {
-        image : ["url(images/small-logo.png)","url(images/crying-potato.png)","url(images/try-again.png)"]
+        image : ["url(images/chatpotato.gif)","url(images/crying-potato.png)","url(images/try-again.png)"]
     },
     {
         image : ["url(images/small-logo.png)","url(images/crying-potato.png)","url(images/try-again.png)"]
@@ -82,10 +82,6 @@ var end = [
                 $("#bottom").css("background-image",data[i].image[2]);
 
             });
-<<<<<<< HEAD
-=======
-
->>>>>>> dc62060916e1a7a0f00b123669820aedef8a2049
             
     }
 

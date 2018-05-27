@@ -135,7 +135,7 @@ nav h2 {
 		#centre {
 			background-size: contain;
 			background-repeat: no-repeat;
-            border : solid black 1px;
+            /*border : solid black 1px;*/
             width:200px;
             height:200px;
 		}
@@ -155,7 +155,7 @@ nav h2 {
 			background-repeat: no-repeat;
 			width: 200px;
 			height: 200px;
-            border : solid black 1px;
+            /*border : solid black 1px;*/
 		}
 
 		#bottom {
@@ -164,7 +164,7 @@ nav h2 {
 			height: 200px;
 			background-size: contain;
 			background-repeat: no-repeat;
-            border : solid black 1px;
+            /*border : solid black 1px;*/
 		}
 
 
