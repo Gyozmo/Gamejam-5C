@@ -192,3 +192,15 @@ nav {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+.croix2 {
+    float: right;
+    width: 5%;
+    height: 100%;
+    background: red;
+    z-index: 5;
+    position: relative;
+    font-size: 40px;}
+
+    .croix2:hover {
+        color: #FFF;}
