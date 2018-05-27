@@ -42,36 +42,36 @@ manger.addEventListener("mouseout", function() {
 	burger.style.marginBottom = "35%";
 	burger.style.transition = "ease-out 2s"
 })
-=======
-var data = [
-{
-	title : "Germe",
-	image : "bleu.png" 
-	options : [
-	{
-		title : "Planter" ,
-		target : 1
+
+// var data = [
+// {
+// 	title : "Germe",
+// 	image : "bleu.png" 
+// 	options : [
+// 	{
+// 		title : "Planter" ,
+// 		target : 1
 		
-	} ,
+// 	} ,
 
-	{
-		title : "Route" ,
-		target : 2
+// 	{
+// 		title : "Route" ,
+// 		target : 2
 		
-	}]
-}
-,
+// 	}]
+// }
+// ,
 
-{
-	title : "Planter" ,
-	image : "rouge.jpg"
-} ,
+// {
+// 	title : "Planter" ,
+// 	image : "rouge.jpg"
+// } ,
 
-{
-	title : "Route" ,
-	image : "vert.gif"
+// {
+// 	title : "Route" ,
+// 	image : "vert.gif"
 
-}
+// }
 
-]
+// ]
 
