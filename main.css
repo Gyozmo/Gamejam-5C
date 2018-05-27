@@ -61,7 +61,8 @@ nav {
         font-size: 40px;}
 
         .croix:hover {
-            color: #FFF;}
+            color: #FFF;
+            cursor: pointer;}
 
 
 /* sections */
@@ -84,7 +85,8 @@ nav {
         justify-content: center;
         align-items: center;
         position: relative;
-        z-index: 2;}
+        z-index: 2;
+        cursor: pointer;}
 
     .fleur, .foot {
         background: none;
@@ -209,3 +211,16 @@ nav {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+.croix2 {
+    float: right;
+    width: 5%;
+    height: 100%;
+    background: red;
+    z-index: 5;
+    position: relative;
+    font-size: 40px;}
+
+    .croix2:hover {
+        color: #FFF;
+        cursor: pointer;}
