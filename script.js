@@ -54,7 +54,6 @@ manger.addEventListener("mouseout", function() {
 	burger.style.transition = "ease-out 2s"
 })
 
-
 /******** Aggrandir la div au click *********/
 
 planter.addEventListener("click", function() {
