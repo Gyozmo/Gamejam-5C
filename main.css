@@ -115,76 +115,80 @@ nav {
                 height: 40%;
                 background-color: orangered;}
 
+
 /* modules1 */
 
 #module {
-    display:flex;
+    display: flex;
     justify-content: center;
     height: 100%;
-    clear : both;
+    clear: both;
+}
+
+#module img {
+    width: 200px;
+    height: 200px;
 }
 
 #image {
 	display: flex;
+    flex-direction: row;
 	justify-content: space-around;
 	height : 70%;
 	width : 80%;
     border : solid black 3px;
     margin-top: 30px;
-
-	
-
 }
-	#left {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-        width : 50%;
+	
+#left {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    width: 50%;
+}
 
-		
+#centre {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:200px;
+    height:200px;
+}
 
-	}
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
-		#centre {
-			background-size: contain;
-			background-repeat: no-repeat;
-            /*border : solid black 1px;*/
-            width:200px;
-            height:200px;
-		}
+#restart {
+    margin: 10px;
+    width: 35%;
+    height: 15%;
+    font-family: 'Kavivanar', cursive;
+    background-color: orangered;
+    color: #FFF;
+    font-size: 30px;
+}
 
-	#right {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-        align-items: center;
-        width:50%;
-		
-	}
+#right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
 
-		#top {
-			background-image: url(data[1].image);
-			background-size: contain;
-			background-repeat: no-repeat;
-			width: 200px;
-			height: 200px;
-            /*border : solid black 1px;*/
-		}
+#top {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+}
 
-		#bottom {
-			background-image: url(data[2].image);
-			width: 200px;
-			height: 200px;
-			background-size: contain;
-			background-repeat: no-repeat;
-            /*border : solid black 1px;*/
-		}
-
-
-/* modules2 */
-
-
-/* modules3 */
-
-
-/*  */
+#bottom {
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}

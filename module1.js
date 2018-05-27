@@ -58,26 +58,23 @@ $(document).ready(function(){
 
 
     $("#restart").click(function(){
-        i=0;
+        i = 0;
         $("#centre").css("background-image",data[i].image[0]);
         $("#top").css("background-image",data[i].image[1]);
         $("#bottom").css("background-image",data[i].image[2]);
-        $("#restart").prop("disabled",true);
     });
 
-    $("#restart").prop("disabled",true);
     
 
 
-    var i=0;
+    var i = 0;
     
     $("#centre").css("background-image",data[i].image[0]);
     $("#top").css("background-image",data[i].image[1]);
     $("#bottom").css("background-image",data[i].image[2]);
 
     $("#top").click(function(){
-        console.log(i)
-        if(i%2 !=0) {
+        if(i%2 != 0) {
             i++;
             $("#centre").css("background-image",data[i].image[0]);
             $("#top").css("background-image",data[i].image[1]);
@@ -87,7 +84,6 @@ $(document).ready(function(){
             $("#centre").css("background-image",end[i].image[0]);
             $("#top").css("background-image",end[i].image[1]);
             $("#bottom").css("background-image",end[i].image[2]);
-            $("#restart").prop("disabled",false);
 
             
         }
@@ -95,7 +91,6 @@ $(document).ready(function(){
     });
 
     $("#bottom").click(function(){
-        console.log(i)
         if(i%2 ==0) {
             i++;
             $("#centre").css("background-image",data[i].image[0]);
@@ -106,7 +101,6 @@ $(document).ready(function(){
             $("#centre").css("background-image",end[i].image[0]);
             $("#top").css("background-image",end[i].image[1]);
             $("#bottom").css("background-image",end[i].image[2]);
-            $("#restart").prop("disabled",false);
         }
 
     });
