@@ -1,4 +1,3 @@
-
 /* Fonts
 font-family: 'Indie Flower', cursive;
 font-family: 'Kavivanar', cursive;
@@ -11,6 +10,7 @@ font-family: 'Kavivanar', cursive;
 #43A6E7 bleu claire
 rgb(64, 188, 234) bleu claire +
 */
+
 
 /* global */
 * { 
@@ -25,8 +25,9 @@ html, body {
     overflow-x: hidden;
     overflow-y: hidden; 
     font-family: 'Indie Flower', cursive;
-    background-image: url('images/skybg.jpg') 
+    background-image: url('images/skybg.jpg');
 }
+
 
 /* header */
 nav {
@@ -34,17 +35,22 @@ nav {
     height: 100px; 
     font-family: 'Kavivanar', cursive;
     background-color: #9FDF58;
+<<<<<<< HEAD
     box-shadow: 0px 2px 1px black;
     line-height: 100px; 
 }
+=======
+    box-shadow: 3px 3px black;
+    line-height: 100px;}
+>>>>>>> 3abbb3bdd8564ba146914f183430cb9e0c5a340d
 
-nav img{ 
-    width: auto;
-    height: 85px;
-    float: left;
-    margin: 8px 30px; 
-}
+    nav img { 
+        width: auto;
+        height: 85px;
+        float: left;
+        margin: 8px 30px;}
 
+<<<<<<< HEAD
 nav h2 {
     font-size: 37px;
     color: #FFF;
@@ -52,16 +58,26 @@ nav h2 {
     text-shadow: 0px 1px 1px black;
 /* text-transform: uppercase */
 }
+=======
+    nav h2 {
+        font-size: 37px;
+        color: #FFF;
+        margin-left: 150px;}
 
-.croix {
-    float: right;
-    width: 5%;
-    height: 100%;
-    background: red;
-    display: none;
-    z-index: 5;
-    position: relative;
-}
+    .croix {
+        float: right;
+        width: 5%;
+        height: 100%;
+        background: red;
+        display: none;
+        z-index: 5;
+        position: relative;
+        font-size: 40px;}
+
+        .croix:hover {
+            color: #FFF;}
+>>>>>>> 3abbb3bdd8564ba146914f183430cb9e0c5a340d
+
 
 /* sections */
 .container {
@@ -71,57 +87,48 @@ nav h2 {
     align-items: center;
     width: 100%;
     height: 35%;
-    margin-top: 20px;
-}
+    margin-top: 20px;}
 
-.box {
-    background-color: rgb(251, 192, 0);
-    width: 28%;
-    height: 100%;
-    font-size: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-}
+    .box {
+        background-color: rgb(251, 192, 0);
+        width: 28%;
+        height: 100%;
+        font-size: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;}
 
-.fleur, .foot {
-    background: none;
-    visibility: hidden;
-    margin-top: 30%;
-}
+    .fleur, .foot {
+        background: none;
+        visibility: hidden;
+        margin-top: 30%;}
 
-.burger {
-    background: none;
-    visibility: hidden;
-    margin-bottom: 35%;
-}
+    .burger {
+        background: none;
+        visibility: hidden;
+        margin-bottom: 35%;}
 
-.manger {
-    z-index: 3;
-}
-            /* module planter */
-
-                .ModulesPlanter, .ModulesPlanter2, .ModulesPlanter3 {
-                    display: flex;
-                    flex-direction: row;
-                    width: 100%;
-                    height: 100%;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    display: none;
+    .manger {
+        z-index: 3;}
 
 
-                }
+        /* module planter */
+        .ModulesPlanter, .ModulesPlanter2, .ModulesPlanter3 {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            display: none;}
 
-                .module {
-                    width: 30%;
-                    height: 40%;
-                    background-color: orangered;
-
-                }
+            .module {
+                width: 30%;
+                height: 40%;
+                background-color: orangered;}
 
 /* modules1 */
 
