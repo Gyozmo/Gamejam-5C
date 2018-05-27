@@ -64,7 +64,7 @@ planter.addEventListener("click", function() {
     this.style.transition = "all 2s";
     setTimeout(function() {
     	croix.style.display = "block";
-    }, 2000)
+    }, 2000);
 })
 
 bouger.addEventListener("click", function() {

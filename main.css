@@ -60,6 +60,11 @@ nav h2 {
     display: none;
     z-index: 5;
     position: relative;
+    font-size: 40px;
+}
+
+.croix:hover {
+    color: #FFF;
 }
 
 /* sections */
