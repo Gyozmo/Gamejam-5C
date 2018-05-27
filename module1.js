@@ -82,6 +82,10 @@ var end = [
                 $("#bottom").css("background-image",data[i].image[2]);
 
             });
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc62060916e1a7a0f00b123669820aedef8a2049
             
     }
 
