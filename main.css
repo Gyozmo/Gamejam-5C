@@ -101,7 +101,26 @@ nav h2 {
 .manger {
     z-index: 3;
 }
+            /* module planter */
 
+                .ModulesPlanter, .ModulesPlanter2, .ModulesPlanter3 {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: 100%;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    display: none;
+
+
+                }
+
+                .module {
+                    width: 30%;
+                    height: 40%;
+                    background-color: orangered;
+
+                }
 
 /* modules1 */
 

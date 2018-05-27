@@ -8,6 +8,9 @@ var fleur = document.querySelector(".fleur");
 var foot = document.querySelector(".foot");
 var burger = document.querySelector(".burger");
 var croix = document.querySelector(".croix");
+var modulePlanter = document.querySelector(".ModulesPlanter");
+var modulePlanter2 = document.querySelector(".ModulesPlanter2");
+var modulePlanter3 = document.querySelector(".ModulesPlanter3");
 
 
 /****** Transition au hover ******/
@@ -63,7 +66,9 @@ planter.addEventListener("click", function() {
     this.style.transition = "all 2s";
     setTimeout(function() {
     	croix.style.display = "block";
-    }, 2000)
+	}, 2000)
+	modulePlanter.style.display='flex';
+	
 })
 
 bouger.addEventListener("click", function() {
@@ -73,7 +78,8 @@ bouger.addEventListener("click", function() {
     this.style.transition = "all 2s";
     setTimeout(function() {
     	croix.style.display = "block";
-    }, 2000)
+	}, 2000)
+	modulePlanter3.style.display='flex';
 })
 
 manger.addEventListener("click", function() {
@@ -83,7 +89,8 @@ manger.addEventListener("click", function() {
     this.style.transition = "all 2s";
     setTimeout(function() {
     	croix.style.display = "block";
-    }, 2000)
+	}, 2000)
+	modulePlanter2.style.display='flex'
 })
 
 
@@ -94,7 +101,8 @@ croix.addEventListener("click", function() {
     planter.style.transformOrigin = "bottom left";
     planter.style.zIndex = "2";
     planter.style.transition = "all 2s";
-    this.style.display = "none";
+	this.style.display = "none";
+	modulePlanter.style.display='none';
 })
 
 croix.addEventListener("click", function() {
@@ -102,12 +110,16 @@ croix.addEventListener("click", function() {
     bouger.style.transformOrigin = "bottom left";
     bouger.style.zIndex = "2";
     bouger.style.transition = "all 2s";
-    this.style.display = "none";
+	this.style.display = "none";
+	modulePlanter3.style.display='none';
+
 })
 
 croix.addEventListener("click", function() {
 	manger.style.transform = "scale(1, 1)";
     manger.style.zIndex = "3";
     manger.style.transition = "all 2s";
-    this.style.display = "none";
+	this.style.display = "none";
+	modulePlanter2.style.display='none';
+
 })
