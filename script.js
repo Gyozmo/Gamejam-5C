@@ -52,7 +52,7 @@ manger.addEventListener("mouseout", function() {
 	burger.style.visibility = "hidden";
 	burger.style.marginBottom = "35%";
 	burger.style.transition = "ease-out 2s"
-
+})
 
 /******** Aggrandir la div au click *********/
 
