@@ -9,11 +9,7 @@ $(document).ready(function(){
         image : ["url(images/plantpotato.jpg)","url(images/plantadult.jpg)","url(images/faucille.jpg)"]
     },
     {
-<<<<<<< HEAD
-        image : ["url(images/patate-germe.png)","url(images/route.jpg)","url(images/ground.png)"]
-=======
         image : ["url(images/potatoes.gif)","url(images/epic-win.gif)","url(images/animepotato.gif)"]
->>>>>>> 9cc5fd7afecdf5273b72d84389c983d72ec59308
     },
     {
         image : ["url(images/burger.png)","url(images/route.jpg)","url(images/ground.png)"]
@@ -91,18 +87,8 @@ $(document).ready(function(){
             $("#centre").css("background-image",end[i].image[0]);
             $("#top").css("background-image",end[i].image[1]);
             $("#bottom").css("background-image",end[i].image[2]);
-<<<<<<< HEAD
             $("#restart").prop("disabled",false);
 
-=======
-            $("#bottom").click(function(){
-                i=0;
-                $("#centre").css("background-image",data[i].image[0]);
-                $("#top").css("background-image",data[i].image[1]);
-                $("#bottom").css("background-image",data[i].image[2]);
-
-            });
->>>>>>> 9cc5fd7afecdf5273b72d84389c983d72ec59308
             
         }
 
